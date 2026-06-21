@@ -3,7 +3,7 @@ from services.zapi_service import enviar_mensagem
 
 contatos = buscar_contatos()
 
-for contato in contatos:
+for contato in contatos[:3]:
 
     nome = contato["nome"]
     numero = contato["telefone"]
