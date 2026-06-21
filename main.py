@@ -3,12 +3,16 @@ from services.zapi_service import enviar_mensagem
 
 contatos = buscar_contatos()
 
-for contato in contatos:
 
-    nome = contato["nome"]
+#print("TOTAL:", len(contatos)) utilizado pois estava mostrando 5 cadastros
+#print(contatos)
+
+for contato in contatos[:3]: # percorre a minha tabela de contatos e encaminha a mensagem para 3 contatos
+
+    nome = contato["nome"] 
     numero = contato["telefone"]
 
-    mensagem = f"Olá, {nome} tudo bem com você?"
+    mensagem = (f"Olá, {nome} tudo bem com você?")
 
     response = enviar_mensagem(numero, mensagem)
 
