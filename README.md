@@ -122,3 +122,5 @@ python main.py
 ## 👨‍💻 Autor
 
 Desenvolvido por **Lucas** como parte do desafio técnico para a vaga de **Estágio em Desenvolvimento Python** na **b2bflow**.
+
+- GitHub: https://github.com/Lucastkx
