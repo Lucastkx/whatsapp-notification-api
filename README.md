@@ -1,6 +1,6 @@
 # 🚀 PROJETO-B2BFLOW
 
-Este repositório contém a solução para o desafio técnico do processo seletivo para a vaga de **Estágio em Desenvolvimento Python** na **b2bflow**.
+
 
 O objetivo do projeto é desenvolver uma automação em Python capaz de:
 
